@@ -1,4 +1,0 @@
-sudo pacman -S - < sed -e ':a;N;$!ba;s/\n/ /g' ~/linux/2
-
-cat 1 >> ~/.bashrc
-source ~/.bashrc
