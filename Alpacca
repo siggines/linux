@@ -1,0 +1,5 @@
+
+pacman-key --init
+pacman-key --populate
+pacman -Sy archlinux-keyring && pacman -Su
+pacman -S archinstall
