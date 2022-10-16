@@ -1,7 +1,5 @@
 
-echo dont forget to add user to sudo wheel
-
-cat 1 >> ~/.bashrc
-source ~/.bashrc
-
-sudo pacman -S - < ~/linux/2
+pacman-key --init
+pacman-key --populate
+pacman -Sy archlinux-keyring && pacman -Su
+pacman -S archinstall
