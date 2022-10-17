@@ -2,5 +2,6 @@ alias ls='ls --color=auto'
 alias yd='youtube-dl'
 alias webmgen='python ~/WebmGenerator/webmGenerator.py'
 alias wttr='curl wttr.in/ipswich'
+alias gitpushoriginmaster='git push origin main'
 
 export PS1="[\[$(tput sgr0)\]\[\033[38;5;34m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;38m\]\h\[$(tput sgr0)\]] (\[$(tput sgr0)\]\[\033[38;5;214m\]\w\[$(tput sgr0)\]) \[$(tput sgr0)\]\[\033[38;5;251m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
